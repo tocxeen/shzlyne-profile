@@ -1,0 +1,19 @@
+.nav {
+  background-color: #280137;
+}
+
+.nav-title {
+  color: #fff !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.nav-links:hover {
+  color: #D3D3D3 !important;
+  border-bottom: 2px dotted #D3D3D3;
+  border-radius: 2px;
+}
+
+.nav-links {
+  color: #ffffff !important;
+}

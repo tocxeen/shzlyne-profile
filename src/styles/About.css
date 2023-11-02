@@ -1,0 +1,23 @@
+.borderless-row td,
+.borderless-row th {
+  border: none;
+  text-align: left;
+}
+.head {
+  text-align: left;
+  margin-top: 50px;
+  font-weight: bold;
+  color: #280137;
+}
+
+.table-border {
+  margin-top: 20px;
+}
+
+.btn-custom {
+  background-color: #280137 !important;
+  outline: #280137 !important;
+  border-radius: 30px !important;
+  border: #280137 !important;
+  float: left;
+}
