@@ -26,7 +26,7 @@ const Toolbar = () => {
             <Nav.Link eventKey={3} className="nav-links" href="#about-us">
               Projects
             </Nav.Link>
-            <Nav.Link eventKey={4} className="nav-links" href="#contact-us">
+            <Nav.Link eventKey={4} className="nav-links" href="#contact">
               Contact Us
             </Nav.Link>
           </Nav>
