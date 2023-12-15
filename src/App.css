@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -47,13 +49,14 @@
   border: none !important;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 10px;
+  padding: 6%;
 }
 
 /*  ############################################                       work experience               #################################################### */
 /* The actual timeline (the vertical ruler) */
 
 .work-experience-section {
-  background-color: #e7e7e7;
+  background-color: #282c34;
 }
 
 .main-timeline {
@@ -203,6 +206,17 @@
   color: #51d6ca;
 }
 
+/* ####################################################################      Motivation section #################################################################### */
+
+.motivation-section {
+  background-image: url("https://img.freepik.com/free-photo/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-concept_1423-126.jpg?w=1060&t=st=1699255002~exp=1699255602~hmac=9ae1c1d7871b7aae016ac4173420a2597251a68f4dcd228f3e0b0fc339033487");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding-top: 5%;
+}
+
 /* ####################################################################         contact us        ##############################################################################*/
 .contact {
   background-color: #282c34;
@@ -210,3 +224,61 @@
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.contact-icon {
+  padding: 30px;
+  width: 100px;
+  background-color: #280137;
+  border-radius: 50%;
+  margin: auto;
+  border: 5px solid #371a42;
+}
+
+.contact-icon:hover {
+  animation: hovering 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hovering {
+  from {
+    border: 5px solid #371a42;
+    color: #fff;
+  }
+  to {
+    color: #af31ee;
+    border: 5px solid #af31ee;
+  }
+}
+
+.icon {
+  width: 100%;
+}
+
+/*  headers */
+.hidden-header {
+  color: rgba(83, 83, 83, 0.643);
+  font-weight: 900;
+  font-size: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-header {
+  font-weight: 900;
+  color: #fff;
+}
+
+.cmt-3 {
+  margin-top: 7rem !important;
+}
+.header-text {
+  color: #ffffff;
+  position: absolute;
+  z-index: 300px;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+
+

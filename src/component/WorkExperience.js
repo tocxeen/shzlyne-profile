@@ -2,17 +2,18 @@ import { MDBCard, MDBCardBody, MDBContainer } from "mdb-react-ui-kit";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Header from "./Header";
 
 const WorkExperience = () => {
   return (
     <Container fluid className="work-experience-section">
-      <h1 className="mt-5 mb-2" id="#contact">
-        My Experience
-      </h1>
-      <p className="mb-5">
-        I am a well skilled candidate who can work and work
-      </p>
-      <Row className="justify-content-md-center mt-3">
+      <Header
+        className="mb-5"
+        header="My Experience"
+        text="I am a well skilled candidate who can work under preassure"
+      />
+
+      <Row className="justify-content-md-center cmt-3">
         <Col xs lg="8">
           <MDBContainer fluid className="py-5">
             <div className="main-timeline">

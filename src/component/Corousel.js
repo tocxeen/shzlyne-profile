@@ -5,21 +5,23 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import "../styles/Corousel.css";
-import img from "../assets/corousel/richard.png";
+import img1 from "../assets/corousel/shaz3.png";
 
 const Corousel = () => {
   const corouselData = [
     {
-      title: "Richard",
-      body: "Geckos are a group of usually small, usually nocturnal lizards.They are found on every continent except Antarctica",
+      title: "Hi",
+      body: "An enthusiastic systems admin, the legend",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
+      img:img1,
       id: "0",
     },
 
     {
       title: "Hey",
-      body: "Geckos are a group of usually small, usually nocturnal lizards.They are found on every continent except Antarctica",
+      body: "Geckos are a group of usually small, usually ",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
+      img:img1,
       id: "1",
     },
   ];
@@ -30,19 +32,16 @@ const Corousel = () => {
         {corouselData.map((data) => (
           <Carousel.Item interval={5000} key={data.id}>
             <Row className="justify-content-md-center mt-2 mb-1">
-              <Col xs lg="4" className="text">
-                <h1 className="mb-3">{data.title}</h1>
-                <p>{data.body}</p>
-                <h6 className="mt-1 mb-3">Here we go</h6>
-                <Button variant="outline-dark" size="md">
-                  Resume
-                </Button>{" "}
-                <Button variant="outline-dark" size="md">
-                  My CV
+              <Col xs sm={12} lg={4} className="text">
+                <h4 className="title mb-3">{data.title}</h4>
+                <h1 className="body">{data.body}</h1>
+                <h6 className="mt-3 mb-5">Here we go</h6>
+                <Button className="btn-custom" size="lg">
+                  Download Resume
                 </Button>
               </Col>
-              <Col xs lg="3">
-                <Image src={img} roundedCircle />
+              <Col xs className="d-none d-sm-block" lg={4}>
+                <Image src={data.img} />
               </Col>
             </Row>
           </Carousel.Item>

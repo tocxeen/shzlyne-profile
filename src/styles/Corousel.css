@@ -1,6 +1,18 @@
+/* blue jean #5b98c3 */
+/* shoe color #deb7b4 */
+/* green #91a38b */
+
 .carousel {
   height: auto;
-  background-color: #d3d3d3;
+  background-color: #282c34;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #8351aa,
+    #998ba3
+  );
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -10,8 +22,40 @@
 .container-corousel {
   padding: 0px !important;
 }
+.title{
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.body {
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 .text {
   text-align: left;
-  color: #280137;
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.carousel-indicators .active {
+  background-color: purple !important;
+  height: 5px !important;
+  width: 5px !important;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  background-color: purple;
+  border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .text {
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.btn-custom {
+  background-color: #91a38b;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

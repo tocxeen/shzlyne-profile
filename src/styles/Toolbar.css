@@ -1,19 +1,35 @@
 .nav {
-  background-color: #280137;
+  background-color: #282c34;
 }
 
 .nav-title {
-  color: #fff !important;
+  color: #91a38b !important;
   font-weight: bolder;
   text-transform: uppercase;
 }
 
-.nav-links:hover {
-  color: #D3D3D3 !important;
-  border-bottom: 2px dotted #D3D3D3;
+.nav-links:hover,
+.active-c {
+  color: #d3d3d3 !important;
+  border-bottom: 2px dotted #d3d3d3;
   border-radius: 2px;
 }
 
 .nav-links {
   color: #ffffff !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff5a;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+/* Change the color of the Navbar Toggle button's icon (hamburger icon) */
+.navbar-toggler-icon span {
+  background-color: #fff;
 }
