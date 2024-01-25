@@ -11,7 +11,7 @@ const Contact = () => {
       <Header
         className="mb-5"
         header="Contact Me"
-        text="I am a well skilled candidate who can work under preassure"
+        text="Feel free to reach out to me regarding any opportunities, collaborations, or inquiries by using the contact information provided below. I am excited to connect and explore how my skills and experience can contribute to your organization's success. Let's chat!"
       />
 
       <Row className="justify-content-md-center cmt-3">
@@ -55,7 +55,7 @@ const Contact = () => {
           <p className="mt-3">E-mail</p>
         </Col>
         <Col xs lg="12">
-          <p className="mt-2">All Right Reserved @2023</p>
+          <p className="mt-2">All Right Reserved @2024</p>
         </Col>
       </Row>
     </Container>

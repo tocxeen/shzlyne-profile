@@ -11,7 +11,7 @@ const Corousel = () => {
   const corouselData = [
     {
       title: "Hi",
-      body: "An enthusiastic systems admin, the legend",
+      body: "I am Shazylene Vambe",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
       img: img1,
       id: "0",
@@ -19,7 +19,7 @@ const Corousel = () => {
 
     {
       title: "Hey",
-      body: "Geckos are a group of usually small, usually ",
+      body: "I'm a Systems Administrator who has quite pleasing experience ",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
       img: img1,
       id: "1",
@@ -35,7 +35,7 @@ const Corousel = () => {
               <Col xs sm={12} lg={4} className="text">
                 <h4 className="title mb-3">{data.title}</h4>
                 <h1 className="body">{data.body}</h1>
-                <h6 className="mt-3 mb-5">Here we go</h6>
+                <h6 className="mt-3 mb-5">If it wasn’t backed-up, then it wasn’t important</h6>
                 <Button className="btn-custom" size="lg">
                   Download Resume
                 </Button>

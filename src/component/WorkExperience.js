@@ -20,11 +20,10 @@ const WorkExperience = () => {
               <div className="timeline left">
                 <MDBCard className="work-experience-card-custom">
                   <MDBCardBody className="p-4">
-                    <h3>2021- Present</h3>
+                    <h3 className="years">Feb 2021- Present</h3>
                     <h6 className="company-name">ClicknPay Investments</h6>
                     <p className="mb-0">
-                      Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
-                      nec admodum perfecto mnesarchum,
+                      Systems Administrator & Customer Service Supervisor
                     </p>
                   </MDBCardBody>
                 </MDBCard>
@@ -32,11 +31,9 @@ const WorkExperience = () => {
               <div className="timeline right">
                 <MDBCard className="work-experience-card-custom">
                   <MDBCardBody className="p-4">
-                    <h3>2020 - 2021</h3>
-                    <h6 className="company-name">ClicknPay Investments</h6>
-                    <p className="mb-0">
-                      Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
-                      nec admodum perfecto mnesarchum, vim ea
+                    <h3 className="years">Jan 2020 – Dec 2021</h3>
+                    <h6 className="company-name">Entire Office system</h6>
+                    <p className="mb-0">Graduate Trainee
                     </p>
                   </MDBCardBody>
                 </MDBCard>
@@ -44,11 +41,9 @@ const WorkExperience = () => {
               <div className="timeline left">
                 <MDBCard className="work-experience-card-custom">
                   <MDBCardBody className="p-4">
-                    <h3>2019 - 2021</h3>
-                    <h6 className="company-name">ClicknPay Investments</h6>
-                    <p className="mb-0">
-                      Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
-                      nec admodum perfecto mnesarchum,
+                    <h3 className="years">Feb 2019 – Sept 2019</h3>
+                    <h6 className="company-name">Muzinda Hub</h6>
+                    <p className="mb-0">Project Coordinator
                     </p>
                   </MDBCardBody>
                 </MDBCard>
@@ -56,11 +51,9 @@ const WorkExperience = () => {
               <div className="timeline right">
                 <MDBCard className="work-experience-card-custom">
                   <MDBCardBody className="p-4">
-                    <h3 className="years">2012</h3>
-                    <h6 className="company-name">ClicknPay Investments</h6>
-                    <p className="mb-0">
-                      Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad
-                      nec admodum perfecto mnesarchum, vim ea
+                    <h3 className="years">Sept 2019 – Jan 2020</h3>
+                    <h6 className="company-name">Muzinda Hub</h6>
+                    <p className="mb-0">Sasai translator - Language translated: Shona
                     </p>
                   </MDBCardBody>
                 </MDBCard>

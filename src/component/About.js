@@ -9,6 +9,7 @@ import "../styles/About.css";
 import img from "../assets/corousel/shaz3.png";
 import Image from "react-bootstrap/Image";
 
+
 const About = () => {
   const renderTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
@@ -19,10 +20,12 @@ const About = () => {
   return (
     <Container>
       <Row className="mt-5 pb-5">
+        
         <Col xl lg="4">
           <Image src={img} fluid />
         </Col>
         <Col xl lg="4">
+         
           <h2 className="head">About Me</h2>
           <Table className="table-border">
             <tbody>
@@ -40,11 +43,11 @@ const About = () => {
               </tr>
               <tr className="borderless-row">
                 <th>Email</th>
-                <td>email@email.com</td>
+                <td>vshazzy@gmail.com</td>
               </tr>
               <tr className="borderless-row">
                 <th>LinkedIn</th>
-                <td>www.linkedin.com</td>
+                <td>https://www.linkedin.com/in/shazlyne-vambe-75ab7a150/</td>
               </tr>
             </tbody>
           </Table>
