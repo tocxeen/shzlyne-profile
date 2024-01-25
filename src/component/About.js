@@ -32,7 +32,7 @@ const About = () => {
               </tr>
               <tr className="borderless-row">
                 <th>Date of Birth</th>
-                <td>20-09-1990</td>
+                <td>07-02-1994</td>
               </tr>
               <tr className="borderless-row">
                 <th>Phone Number</th>
