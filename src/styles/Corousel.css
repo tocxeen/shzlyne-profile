@@ -1,18 +1,17 @@
-/* blue jean #5b98c3 */
-/* shoe color #deb7b4 */
-/* green #91a38b */
-
 .carousel {
   height: auto;
   background-color: #282c34;
-  background-image: linear-gradient(
-    to right top,
-    #051937,
-    #004d7a,
-    #008793,
-    #8351aa,
-    #998ba3
-  );
+  background-image: linear-gradient(to right top,
+      #051937,
+      #004d7a,
+      #008793,
+      #8351aa,
+      #998ba3);
+  background-image: url(https://img.freepik.com/free-photo/3d-render-network-communications-background-with-plexus-design_1048-13022.jpg?w=996&t=st=1706165629~exp=1706166229~hmac=bf192681c5822b251a535f24a6f1ac9368d6c6c88e48ed55fd68e25f537fe649);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -22,18 +21,20 @@
 .container-corousel {
   padding: 0px !important;
 }
-.title{
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+.title {
+  text-shadow: rgb(247, 247, 247) 0px 3px 8px;
 }
+
 .body {
   font-weight: 900;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-shadow: rgb(46, 134, 161) 0px 3px 8px;
 }
 
 .text {
   text-align: left;
   color: #ffffff;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-shadow: rgb(247, 247, 247) 0px 3px 8px;
 }
 
 .carousel-indicators .active {
@@ -43,10 +44,10 @@
   border-radius: 50%;
 }
 
-.carousel-control-next-icon {
+/* .carousel-control-next-icon {
   background-color: purple;
   border-radius: 10%;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .text {
@@ -56,6 +57,6 @@
 }
 
 .btn-custom {
-  background-color: #91a38b;
+  background-color: purple;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

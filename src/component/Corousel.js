@@ -13,7 +13,7 @@ const Corousel = () => {
       title: "Hi",
       body: "An enthusiastic systems admin, the legend",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
-      img:img1,
+      img: img1,
       id: "0",
     },
 
@@ -21,7 +21,7 @@ const Corousel = () => {
       title: "Hey",
       body: "Geckos are a group of usually small, usually ",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
-      img:img1,
+      img: img1,
       id: "1",
     },
   ];

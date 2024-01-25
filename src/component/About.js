@@ -6,7 +6,7 @@ import Tooltip from "react-bootstrap/Tooltip";
 import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import "../styles/About.css";
-import img from "../assets/corousel/richard.png";
+import img from "../assets/corousel/shaz3.png";
 import Image from "react-bootstrap/Image";
 
 const About = () => {
@@ -28,15 +28,15 @@ const About = () => {
             <tbody>
               <tr className="borderless-row">
                 <th>Name</th>
-                <td>Mark Angel</td>
+                <td>Shazlyne  Vambe</td>
               </tr>
               <tr className="borderless-row">
                 <th>Date of Birth</th>
-                <td>20-1990</td>
+                <td>20-09-1990</td>
               </tr>
               <tr className="borderless-row">
                 <th>Phone Number</th>
-                <td>0782428177</td>
+                <td>+263 71 542 4386</td>
               </tr>
               <tr className="borderless-row">
                 <th>Email</th>
