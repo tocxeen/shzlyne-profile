@@ -8,6 +8,7 @@ import Table from "react-bootstrap/Table";
 import "../styles/About.css";
 import img from "../assets/corousel/shaz3.png";
 import Image from "react-bootstrap/Image";
+ import cv from "../assets/docs/ShazlyneVambeCV.pdf"
 
 
 const About = () => {
@@ -16,6 +17,21 @@ const About = () => {
       Shazlyne's detailed CV
     </Tooltip>
   );
+
+
+  const handleDownload = () => {
+    const url = cv;
+
+    // Create a temporary anchor element
+    const link = document.createElement('a');
+    link.href = url;
+    link.setAttribute('download', 'ShazyleneVambe.pdf');
+
+    // Simulate a click on the anchor to trigger the download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <Container>
@@ -59,7 +75,7 @@ const About = () => {
             placement="right"
             delay={{ show: 250, hide: 400 }}
             overlay={renderTooltip}>
-            <Button className="btn-custom" size="lg">
+            <Button className="btn-custom" size="lg" onClick={handleDownload}>
               Download Resume
             </Button>
           </OverlayTrigger>
