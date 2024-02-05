@@ -12,8 +12,8 @@ const MyRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" exact element={<Navigate to="/home" />} />
-        <Route path="/home" element={<Home />} />
+        {/* <Route path="/" exact element={<Navigate to="/home" />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="*" element={<Page404 />} />
       </Routes>
     </Router>
