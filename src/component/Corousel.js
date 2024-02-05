@@ -11,7 +11,7 @@ import cv from "../assets/docs/ShazlyneVambeCV.pdf"
 const Corousel = () => {
   const corouselData = [
     {
-      title: "Hi",
+    
       body: "Experienced professional with diverse IT and customer service background, skilled in customer support, system administration, testing, MySQL, front-end, and project planning.",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
       img: img1,
@@ -19,7 +19,7 @@ const Corousel = () => {
     },
 
     {
-      title: "Hey",
+   
       body: "Dedicated professional with technical expertise and customer-centric focus delivering high-quality solutions, excelling in fast-paced environments and embracing new IT challenges eagerly.",
       button: [{ name: "Contact Me" }, { name: "Resume" }],
       img: img1,

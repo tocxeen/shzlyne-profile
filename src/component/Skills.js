@@ -6,10 +6,10 @@ import Card from "react-bootstrap/Card";
 const Skills = () => {
   return (
     <Container className="skills-section">
-  
+
       <h1 className="mt-6 mb-2">Skills</h1>
       <p className="mb-5">
-        I am a well skilled candidate who can work and work
+        Proficient in a diverse range of technical skills, with a strong emphasis on problem-solving, <br></br> attention to detail, and effective collaboration in dynamic work environments.
       </p>
       <Row className="justify-content-md-center mt-3">
         <Col xs lg="4">
