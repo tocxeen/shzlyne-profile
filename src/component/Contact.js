@@ -7,7 +7,7 @@ const Contact = () => {
 
 
   const handleOpenWhatsApp = () => {
-    window.open('https://wa.me/0715424386', '_blank');
+    window.open('https://wa.me/263715424386', '_blank');
   };
 
   const handleOpenEmail = () => {
@@ -21,11 +21,13 @@ const Contact = () => {
 
   return (
     <Container className="contact" fluid >
-      <Header
-        className="mb-5"
-        header="Contact Me"
-        text="Feel free to reach out to me regarding any opportunities, collaborations, or inquiries by using the contact information provided below. I am excited to connect and explore how my skills and experience can contribute to your organization's success. Let's chat!"
-      />
+      <Row className="justify-content-md-center  ">
+        <Col xs lg="8">
+          <h1 className="w-title mt-1">Contact Me</h1>
+          <p className="w-text">Feel free to reach out to me regarding any opportunities, collaborations, or inquiries by using the contact information provided below. I am excited to connect and explore how my skills and experience can contribute to your organization's success. Let's chat!</p>
+        </Col>
+      </Row>
+     
 
       <Row className="justify-content-md-center cmt-3">
         <Col xs lg="3" sm="12" onClick={handleOpenWhatsApp}>

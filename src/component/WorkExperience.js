@@ -7,15 +7,22 @@ import Header from "./Header";
 const WorkExperience = () => {
   return (
     <Container fluid className="work-experience-section">
-      <Header
+
+      <Row className="justify-content-md-center cmt-3 ">
+        <Col xs lg="8">
+          <h1 className="w-title mt-4">My Experience</h1>
+          <p className="w-text">Customer-focused experience to collaborate effectively with software developers and in system administration, ensuring high-quality software delivery, effective project management, and robust system security while pursuing certifications to enhance my skills in software testing, project management, and system security</p>
+        </Col>
+      </Row>
+      {/* <Header
         className="mb-5"
         header="My Experience"
-        text="I am a well skilled candidate who can work under preassure"
-      />
+        text=""
+      /> */}
 
       <Row className="justify-content-md-center cmt-3">
         <Col xs lg="8">
-          <MDBContainer fluid className="py-5">
+          <MDBContainer fluid className="pb-5">
             <div className="main-timeline">
               <div className="timeline left">
                 <MDBCard className="work-experience-card-custom">

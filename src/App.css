@@ -41,7 +41,7 @@
 /*  ############################################                       Skills               #################################################### */
 
 .skills-section {
- 
+
   padding: 3% 0 3% 0;
 }
 
@@ -55,6 +55,9 @@
 /*  ############################################                       work experience               #################################################### */
 /* The actual timeline (the vertical ruler) */
 
+.w-title, .w-text{
+color: #c0c0c0;
+} 
 .work-experience-section {
   background-color: #282c34;
 }
@@ -271,6 +274,7 @@
 .main-header {
   font-weight: 900;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .cmt-3 {
