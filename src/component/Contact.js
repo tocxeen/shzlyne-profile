@@ -4,7 +4,20 @@ import Col from "react-bootstrap/Col";
 import Header from "./Header";
 
 const Contact = () => {
- 
+
+
+  const handleOpenWhatsApp = () => {
+    window.open('https://wa.me/0715424386', '_blank');
+  };
+
+  const handleOpenEmail = () => {
+    const email = 'vshazzy@gmail.com';
+    window.location.href = `mailto:${email}`;
+  };
+  const handleOpenLinkedin = () => {
+    window.open('https://www.linkedin.com/in/shazlyne-vambe-75ab7a150/', '_blank');
+  };
+
 
   return (
     <Container className="contact" fluid >
@@ -15,7 +28,7 @@ const Contact = () => {
       />
 
       <Row className="justify-content-md-center cmt-3">
-        <Col xs lg="3" sm="12">
+        <Col xs lg="3" sm="12" onClick={handleOpenWhatsApp}>
           <div className="contact-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +41,7 @@ const Contact = () => {
           <p className="mt-3">WhatsApp</p>
         </Col>
 
-        <Col xs lg="3" sm="12">
+        <Col xs lg="3" sm="12" onClick={handleOpenLinkedin}>
           <div className="contact-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +54,7 @@ const Contact = () => {
 
           <p className="mt-3">LinkedIn</p>
         </Col>
-        <Col xs lg="3" sm="12">
+        <Col xs lg="3" sm="12" onClick={handleOpenEmail}>
           <div className="contact-icon">
             <svg
               xmlns="http://www.w3.org/2000/svg"
